@@ -28,9 +28,9 @@ I used the data all from Federal Reserve Bank of St.Louis as csv files.
 * Real Gross Domestic Product (GDPC1) from Federal Reserve Bank of St.Louis
 
 ## Procedure  
-1. Data Collection and Wrangling
+### 1. Data Collection and Wrangling
 
-2. Visualizing the Macroeconomic Landscape over Time
+### 2. Visualizing the Macroeconomic Landscape over Time
 Before feeding the data into a complex mathematical model, it is crucial to visually inspect the historical trends of our variables. The time-series plots above illustrate the dynamic behavior of the U.S. economy over the past few decades.
 
 Key Observations:
