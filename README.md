@@ -32,6 +32,7 @@ I used the data all from Federal Reserve Bank of St.Louis as csv files.
 
 ### 2. Visualizing the Macroeconomic Landscape over Time
 Before feeding the data into a complex mathematical model, it is crucial to visually inspect the historical trends of our variables. The time-series plots above illustrate the dynamic behavior of the U.S. economy over the past few decades.
+![Fluctuation of economic variables over time](variables.html)
 
 Key Observations:
 
@@ -43,6 +44,7 @@ Key Observations:
 
 ### 3. The Ripple Effect: Impulse Response Analysis
 Now that we have a valid structural model, we can finally answer our core questions by running an Impulse Response Function (IRF). An IRF allows us to simulate a hypothetical scenario: What exactly happens to Economic Growth over the next 10 quarters if we apply a sudden "shock" (a 1-standard-deviation increase) to one specific variable, while holding everything else constant?
+![Variables' Impact on Economic Growth](irf_impacts_on_growth.html)
 
 1. The Unemployment Shock:
 When the Unemployment Rate spikes, the model shows an immediate and mathematically significant negative impact on Economic Growth. However, the graph reveals that the economy doesn't recover instantly; the negative drag persists for several quarters before returning to the baseline, illustrating the "sticky" nature of job losses.
@@ -55,6 +57,7 @@ One of the most surprising insights came from testing Consumer Sentiment. While 
 
 ### 4. Modeling the Engine: Actual vs. Predicted Growth
 Given the information above, we are able to create an equation that best represents the present Economic Growth with the given parameters. The graph below plots the actual historical Economic Growth (Blue) against what our mathematical model predicted (Red).
+![Actual vs Predicted Growth Rate](equation_fit.html)
 
 Interpreting the Accuracy Metrics:
 
